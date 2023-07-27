@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#A script that displays the content of a directory using the for loop 
+
+list=$(ls)
+for i in $list
+do
+    echo "$i" | cut -d'-' -f 2
+do
