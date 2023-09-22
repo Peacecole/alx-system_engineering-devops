@@ -3,8 +3,8 @@
 #Use pkill
 
 exec { 'kill_killmenow':
-  command     => '/usr/pkill killmenow',
-  path        => ['/bin', '/usr/bin'], #Path
+  command     => 'pkill killmenow',
+  path        => ['/bin', '/usr/bin'],  #Path to the command
   refreshonly => true,
-  onlyif      => 'pgrep killmenow',    #Does the process exist?
+  onlyif      => 'pgrep killmenow',  #Does the process exist?
 }
