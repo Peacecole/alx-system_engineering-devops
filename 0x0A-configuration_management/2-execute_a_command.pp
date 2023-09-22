@@ -2,7 +2,7 @@
 #Use the exec Puppet resource
 #Use pkill
 
-exec { 'kill_killmenow':
+exec { 'killmenow':
   command     => 'pkill killmenow',
   path        => '/usr/bin',  #Path to the command
   refreshonly => true,
