@@ -3,6 +3,6 @@
 #Use pkill
 
 exec { 'killmenow':
-  command     => '/usr/bin/pkill killmenow', #command path
-  provider    => 'shell',  		     #provider
+  command   => '/usr/bin/pkill killmenow', #command path
+  provider  => 'shell',  		   #provider
 }
