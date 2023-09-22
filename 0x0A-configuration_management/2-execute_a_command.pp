@@ -4,7 +4,7 @@
 
 exec { 'kill_killmenow':
   command     => 'pkill killmenow',
-  path        => ['/bin', '/usr/bin'],  #Path to the command
+  path        => '/usr/bin',  #Path to the command
   refreshonly => true,
   onlyif      => 'pgrep killmenow',  #Does the process exist?
 }
