@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-A python script that exports data in the CSV format and 
+A python script that exports data in the CSV format and
 records all tasks owned by a given employee
 """
 
