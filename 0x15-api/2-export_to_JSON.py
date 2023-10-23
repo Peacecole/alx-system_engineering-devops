@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-A python script that exports data in the JSON format and 
+A python script that exports data in the JSON format and
 records all tasks that are owned by a given employee.
 """
 
